@@ -1,0 +1,18 @@
+Mavenization of project should include at least following points.
+
+
+1. Adding dependency
+2. Add atleast 3 plugin in pom and add them to specific phase.
+3. Fail the build if it does not meet some specific criteria of code coverage.
+4. Fail the build if it does not meet some quality code criteria (SonrQube etc.)
+5. Ignore test case failure for build (from pom and command line both)
+6. Skipping test case for build (from pom and command line both)
+7. Deploy the war in app server
+8. Attach a new goal to a phase other than the default one
+9. Add property reference in your pom
+10. Adding optional dependency
+11. Adding dependency based on version range
+12. Create a base project (packaging type pom)  to create generic dependency for all your projects and add them in your project (inheritance)
+
+
+
